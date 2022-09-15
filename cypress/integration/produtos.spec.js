@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+
 import contrato from '../contracts/produtos.contract'
 
 describe('Testes da Funcionalidade Produtos', () => {
@@ -60,7 +61,7 @@ describe('Testes da Funcionalidade Produtos', () => {
                 headers: {authorization: token}, 
                 body: 
                 {
-                    "nome": "Produto Editado 45642083",
+                    "nome": "Produto Editado 45642082",
                     "preco": 100,
                     "descricao": "Produto editado",
                     "quantidade": 100
