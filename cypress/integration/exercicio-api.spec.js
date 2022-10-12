@@ -25,6 +25,3 @@ describe('Testes da Funcionalidade Usuários', () => {
     it('Deve deletar um usuário previamente cadastrado', () => {
         //TODO: 
     });
-
-
-});
